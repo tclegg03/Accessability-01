@@ -10,8 +10,10 @@ ul{
     bottom: 50%;
 }
 li{
-display: inline;
+display: inline-block;
 font-style: none;
+position: relative;
+bottom: 40px;
 }
 
 a{
@@ -22,6 +24,12 @@ font-size: 25px;
 padding: 20px;
 top: 50%;
 bottom: 50%;
+}
+section{
+    position: relative;
+    height: 1000px;
+    width: 1900px;
+    margin: 30px;
 }
 
 .header{
@@ -36,14 +44,103 @@ bottom: 50%;
     font-size: 100px;
     margin:auto;
     padding-top: 25px;
+    top: 30px;
+    left: 30px;
 }
 
 #seo{
     color:rgb(217, 221, 216) ;
-
 }
 
 .search-engine-optimization{
     background-color: rgb(0,114,187);
-    
+    color: white;
+    position: relative;
+    padding: 100px;
+    padding-bottom: 70px;
+    margin-right: 530px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#search{
+    position: absolute;
+    display: block;
+    left: 30px;
+    top: 30px;
+}
+
+#searchtitle{
+    position: relative;
+    display: block;
+    left: 500px;
+    bottom: 60px;
+    padding-right: 1000px;
+    font-size: 30px;
+}
+#searchpara{
+    position: relative;
+    display: block;
+    left: 500px;
+    margin-right: 530px;
+    font-size: 20px;
+}
+.online-reputation-management{
+    background-color: rgb(0,114,187);
+    color: white;
+    position: relative;
+    top: -560px;
+    margin-right: 530px;
+    margin-left: 30px;
+}
+
+#repmanagment{
+    position: absolute;
+    display: block;
+}
+
+#Managementtitle{
+    position: relative;
+    display: block;
+    left: 600px;
+    top: 50px;
+}
+
+#Managementpara{
+    position: relative;
+    display: block;
+    left: 600px;
+    top: -50px;
+}
+
+.social-media-marketing{
+    background-color: rgb(0,114,187);
+    color: white;
+    position: relative;
+    top: -1140px;
+    margin-right: 530px;
+    margin-left: 30px;
+}
+
+#marketing{
+    position: relative;
+    display: block;
+    left: 30px;
+    top: 5px;
+}
+
+#Socialmediamarketingtitle{
+    position: relative;
+    display:block;
+    left: 600px;
+    top: 50px;
+}
+.benefits{
+ background-color: rgb(37,137,189);
+ color: white;
+ display: block;
+ font-size: larger;
+ text-align: center;
+ margin-right: 30%;
+ margin-left: 30%;
 }
