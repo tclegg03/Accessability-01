@@ -1,3 +1,6 @@
+*{
+    box-sizing: content-box;
+}
 body{
     background-color: rgb(217, 220, 214);
     position: relative;
@@ -34,7 +37,8 @@ right: 20px;
 
 .header{
     background-color: rgb(42, 96, 124);
-    padding-top:10px ;
+    padding-top:20px ;
+    padding-bottom: 10px;
 }
 .search-engine-optimization{
     background-color: rgb(0, 114, 187);
@@ -137,11 +141,13 @@ right: 20px;
     position: absolute;
     display: block;
     background-color: rgb(37, 137, 189);
-    bottom: 80px;
+    bottom: -25px;
     right: 20px;
     color: white;
     font-family: sans-serif;
     width: 400px;
+    height: 1900px;
+
 }
 #head{
     position: relative;
@@ -152,4 +158,66 @@ right: 20px;
 }
 #seo{
     color: rgb(217, 221, 216);
+}
+#leadtitle{
+    position: relative;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+#leadpic{ 
+    position: relative;
+    display: block;
+    left: 30px;
+}
+#leadtext{
+    position: relative;
+    display: block;
+    text-align: left;
+    left: 1em;
+    top: -20px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+#brandheader{
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    top: 10px;
+}
+#brandawareness{
+    position: relative;
+    display: block;
+    left: 30px;
+}
+#brandawarenesstext{
+    position: relative;
+    display: block;
+    text-align: left;
+    left: 1em;
+    font-size: 20px;
+    margin-right: 40px;
+}
+#cost-managementtitle{
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    bottom: -90px;
+}
+#cost-management{
+    position: relative;
+    display: block;
+    left: 30px;
+    top: 70px;
+}
+#cost-managementtext{
+    position: relative;
+    display: block;
+    text-align: left;
+    font-size: 25px;
+    left: 1em;
+    top: 100px;
+    margin-right: 40px;
 }
